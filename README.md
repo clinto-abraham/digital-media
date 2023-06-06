@@ -16,4 +16,4 @@ Run Tailwind CLI
 npm run watch
 ```
 
-![Alt text](loopstudios.png)
+![Alt text](public/loopstudios.png)
