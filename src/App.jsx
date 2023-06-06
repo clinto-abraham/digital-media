@@ -15,7 +15,6 @@ function App() {
 
   return (
     <div className="App">
-
       <section id="hero">
 
         <div className="container max-w-6xl mx-auto px-6 py-12">
@@ -25,31 +24,31 @@ function App() {
 
             <div className="hidden h-10 font-alata md:flex md:space-x-8">
               <div className="group">
-                <a href="#">About</a>
+                <a href="/">About</a>
                 <div
                   className="mx-2 group-hover:border-b group-hover:border-blue-50"
                 ></div>
               </div>
               <div className="group">
-                <a href="#">Careers</a>
+                <a href="/">Careers</a>
                 <div
                   className="mx-2 group-hover:border-b group-hover:border-blue-50"
                 ></div>
               </div>
               <div className="group">
-                <a href="#">Events</a>
+                <a href="/">Events</a>
                 <div
                   className="mx-2 group-hover:border-b group-hover:border-blue-50"
                 ></div>
               </div>
               <div className="group">
-                <a href="#">Products</a>
+                <a href="/">Products</a>
                 <div
                   className="mx-2 group-hover:border-b group-hover:border-blue-50"
                 ></div>
               </div>
               <div className="group">
-                <a href="#">Support</a>
+                <a href="/">Support</a>
                 <div
                   className="mx-2 group-hover:border-b group-hover:border-blue-50"
                 ></div>
@@ -72,11 +71,11 @@ function App() {
             id="menu"
             className="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black"
           >
-            <a href="#" className="hover:text-pink-500">About</a>
-            <a href="#" className="hover:text-pink-500">Careers</a>
-            <a href="#" className="hover:text-pink-500">Events</a>
-            <a href="#" className="hover:text-pink-500">Products</a>
-            <a href="#" className="hover:text-pink-500">Support</a>
+            <a href="/About" className="hover:text-pink-500">About</a>
+            <a href="/Careers" className="hover:text-pink-500">Careers</a>
+            <a href="/Events" className="hover:text-pink-500">Events</a>
+            <a href="/Products" className="hover:text-pink-500">Products</a>
+            <a href="/Support" className="hover:text-pink-500">Support</a>
           </div>
 
           <div
@@ -302,35 +301,35 @@ function App() {
               >
 
                 <div className="h-10 group">
-                  <a href="#">About</a>
+                  <a href="/">About</a>
                   <div
                     className="mx-2 group-hover:border-b group-hover:border-blue-50"
                   ></div>
                 </div>
                 {/* Item 2 */}
                 <div className="h-10 group">
-                  <a href="#">Careers</a>
+                  <a href="/">Careers</a>
                   <div
                     className="mx-2 group-hover:border-b group-hover:border-blue-50"
                   ></div>
                 </div>
                 {/* Item 3 */}
                 <div className="h-10 group">
-                  <a href="#">Events</a>
+                  <a href="/">Events</a>
                   <div
                     className="mx-2 group-hover:border-b group-hover:border-blue-50"
                   ></div>
                 </div>
                 {/* Item 4 */}
                 <div className="h-10 group">
-                  <a href="#">Products</a>
+                  <a href="/">Products</a>
                   <div
                     className="mx-2 group-hover:border-b group-hover:border-blue-50"
                   ></div>
                 </div>
                 {/* Item 5 */}
                 <div className="h-10 group">
-                  <a href="#">Support</a>
+                  <a href="/">Support</a>
                   <div
                     className="mx-2 group-hover:border-b group-hover:border-blue-50"
                   ></div>
@@ -348,25 +347,25 @@ function App() {
               >
                 {/* Icon 1 */}
                 <div className="h-8 group">
-                  <a href="#">
+                  <a href="/">
                     <img src="icon-facebook.svg" alt="" className="h-6" />
                   </a>
                 </div>
                 {/* Icon 2 */}
                 <div className="h-8 group">
-                  <a href="#">
+                  <a href="/">
                     <img src="icon-twitter.svg" alt="" className="h-6" />
                   </a>
                 </div>
                 {/* Icon 3 */}
                 <div className="h-8 group">
-                  <a href="#">
+                  <a href="/">
                     <img src="icon-pinterest.svg" alt="" className="h-6" />
                   </a>
                 </div>
                 {/* Icon 4 */}
                 <div className="h-8 group">
-                  <a href="#">
+                  <a href="/">
                     <img src="icon-instagram.svg" alt="" className="h-6" />
                   </a>
                 </div>
