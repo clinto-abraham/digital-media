@@ -9,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <div class="container max-w-6xl mx-auto px-6 py-12">
 
         <nav class="flex items-center justify-between font-bold text-white">
-          <img src="logo.svg" alt="" />
+          <img src="../public/logo.svg" alt="logo" />
 
           <div class="hidden h-10 font-alata md:flex md:space-x-8">
             <div class="group">
