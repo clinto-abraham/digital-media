@@ -59,7 +59,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </section>
     <section id="feature">
       <div class="relative container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0">
-        <img src="desktop/image-interactive.jpg" alt="" />
+        <img src="../public/desktop/image-interactive.jpg" alt="" />
         <div class="top-48 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20">
           <h2
             class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left">
@@ -88,9 +88,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
           <div class="group item">
             <!-- {/* Desktop Image */} -->
-            <img src="desktop/image-deep-earth.jpg" alt=""
+            <img src="../public/desktop/image-deep-earth.jpg" alt=""
               class="hidden w-full duration-200 md:block group-hover:scale-110" />
-            <img src="mobile/image-deep-earth.jpg" alt="" class="w-full md:hidden" />
+            <img src="../public/mobile/image-deep-earth.jpg" alt="" class="w-full md:hidden" />
             <!-- {/* Item Gradient */} -->
             <div class="item-gradient"></div>
             <!-- {/* Item Text */} -->
@@ -100,9 +100,9 @@ import HelloWorld from './components/HelloWorld.vue'
           <!-- {/* Item 2 */} -->
           <div class="group item">
             <!-- {/* Desktop Image */} -->
-            <img src="desktop/image-night-arcade.jpg" alt=""
+            <img src="../public/desktop/image-night-arcade.jpg" alt=""
               class="hidden w-full duration-200 md:block group-hover:scale-110" />
-            <img src="mobile/image-night-arcade.jpg" alt="" class="w-full md:hidden" />
+            <img src="../public/mobile/image-night-arcade.jpg" alt="" class="w-full md:hidden" />
             <!-- {/* Item Gradient */} -->
             <div class="item-gradient"></div>
             <!-- {/* Item Text */} -->
@@ -112,9 +112,9 @@ import HelloWorld from './components/HelloWorld.vue'
           <!-- {/* Item 3 */} -->
           <div class="group item">
             <!-- {/* Desktop Image */} -->
-            <img src="desktop/image-soccer-team.jpg" alt=""
+            <img src="../public/desktop/image-soccer-team.jpg" alt=""
               class="hidden w-full duration-200 md:block group-hover:scale-110" />
-            <img src="mobile/image-soccer-team.jpg" alt="" class="w-full md:hidden" />
+            <img src="../public/mobile/image-soccer-team.jpg" alt="" class="w-full md:hidden" />
             <!-- {/* Item Gradient */} -->
             <div class="item-gradient"></div>
             <!-- {/* Item Text */} -->
@@ -124,8 +124,9 @@ import HelloWorld from './components/HelloWorld.vue'
           <!-- {/* Item 4 */} -->
           <div class="group item">
             <!-- {/* Desktop Image */} -->
-            <img src="desktop/image-grid.jpg" alt="" class="hidden w-full duration-200 md:block group-hover:scale-110" />
-            <img src="mobile/image-grid.jpg" alt="" class="w-full md:hidden" />
+            <img src="../public/desktop/image-grid.jpg" alt=""
+              class="hidden w-full duration-200 md:block group-hover:scale-110" />
+            <img src="../public/mobile/image-grid.jpg" alt="" class="w-full md:hidden" />
             <!-- {/* Item Gradient */} -->
             <div class="item-gradient"></div>
             <!-- {/* Item Text */} -->
@@ -138,9 +139,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
           <div class="group item">
             <!-- {/* Desktop Image */} -->
-            <img src="desktop/image-from-above.jpg" alt=""
+            <img src="../public/desktop/image-from-above.jpg" alt=""
               class="hidden w-full duration-200 md:block group-hover:scale-110" />
-            <img src="mobile/image-from-above.jpg" alt="" class="w-full md:hidden" />
+            <img src="../public/mobile/image-from-above.jpg" alt="" class="w-full md:hidden" />
             <!-- {/* Item Gradient */} -->
             <div class="item-gradient"></div>
             <!-- {/* Item Text */} -->
@@ -150,9 +151,9 @@ import HelloWorld from './components/HelloWorld.vue'
           <!-- {/* Item 2 */} -->
           <div class="group item">
             <!-- {/* Desktop Image */} -->
-            <img src="desktop/image-pocket-borealis.jpg" alt=""
+            <img src="../public/desktop/image-pocket-borealis.jpg" alt=""
               class="hidden w-full duration-200 md:block group-hover:scale-110" />
-            <img src="mobile/image-pocket-borealis.jpg" alt="" class="w-full md:hidden" />
+            <img src="../public/mobile/image-pocket-borealis.jpg" alt="" class="w-full md:hidden" />
             <!-- {/* Item Gradient */} -->
             <div class="item-gradient"></div>
             <!-- {/* Item Text */} -->
@@ -162,9 +163,9 @@ import HelloWorld from './components/HelloWorld.vue'
           <!-- {/* Item 3 */} -->
           <div class="group item">
             <!-- {/* Desktop Image */} -->
-            <img src="desktop/image-curiosity.jpg" alt=""
+            <img src="../public/desktop/image-curiosity.jpg" alt=""
               class="hidden w-full duration-200 md:block group-hover:scale-110" />
-            <img src="mobile/image-curiosity.jpg" alt="" class="w-full md:hidden" />
+            <img src="../public/mobile/image-curiosity.jpg" alt="" class="w-full md:hidden" />
             <!-- {/* Item Gradient */} -->
             <div class="item-gradient"></div>
             <!-- {/* Item Text */} -->
@@ -174,9 +175,9 @@ import HelloWorld from './components/HelloWorld.vue'
           <!-- {/* Item 4 */} -->
           <div class="group item">
             <!-- {/* Desktop Image */} -->
-            <img src="desktop/image-fisheye.jpg" alt=""
+            <img src="../public/desktop/image-fisheye.jpg" alt=""
               class="hidden w-full duration-200 md:block group-hover:scale-110" />
-            <img src="mobile/image-fisheye.jpg" alt="" class="w-full md:hidden" />
+            <img src="../public/mobile/image-fisheye.jpg" alt="" class="w-full md:hidden" />
             <!-- {/* Item Gradient */} -->
             <div class="item-gradient"></div>
             <!-- {/* Item Text */} -->
@@ -202,7 +203,7 @@ import HelloWorld from './components/HelloWorld.vue'
           <div class="flex flex-col items-center space-y-8 md:items-start md:space-y-4">
 
             <div class="h-8">
-              <img src="logo.svg" alt="" class="w-44 md:ml-3" />
+              <img src="../public/logo.svg" alt="" class="w-44 md:ml-3" />
             </div>
             <!-- {/* Menu Container */} -->
             <div
@@ -242,25 +243,25 @@ import HelloWorld from './components/HelloWorld.vue'
               <!-- {/* Icon 1 */} -->
               <div class="h-8 group">
                 <a href="/">
-                  <img src="icon-facebook.svg" alt="" class="h-6" />
+                  <img src="../public/icon-facebook.svg" alt="" class="h-6" />
                 </a>
               </div>
               <!-- {/* Icon 2 */} -->
               <div class="h-8 group">
                 <a href="/">
-                  <img src="icon-twitter.svg" alt="" class="h-6" />
+                  <img src="../public/icon-twitter.svg" alt="" class="h-6" />
                 </a>
               </div>
               <!-- {/* Icon 3 */} -->
               <div class="h-8 group">
                 <a href="/">
-                  <img src="icon-pinterest.svg" alt="" class="h-6" />
+                  <img src="../public/icon-pinterest.svg" alt="" class="h-6" />
                 </a>
               </div>
               <!-- {/* Icon 4 */} -->
               <div class="h-8 group">
                 <a href="/">
-                  <img src="icon-instagram.svg" alt="" class="h-6" />
+                  <img src="../public/icon-instagram.svg" alt="" class="h-6" />
                 </a>
               </div>
             </div>
